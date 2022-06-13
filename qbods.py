@@ -229,6 +229,7 @@ def q142(ooci,threshold):
     
     return(finalout)
 
+#test comment
 def q211(ooes):
     d = {'Name': [sum(ooes['name'].notna()),sum(ooes['name'].isna())]}
     out = pd.DataFrame(d,index = ['Present','Missing'])
